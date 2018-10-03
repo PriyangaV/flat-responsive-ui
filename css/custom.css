@@ -1,0 +1,234 @@
+/*
+** Body
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+** Headers
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+/*
+** Containers
+*/
+
+.container {
+    padding: 40px 20px;
+}
+
+.container-spacy {
+    padding: 80px 20px;
+}
+
+/*
+** Backgrounds
+*/
+
+.background-orange {
+    background-color: #f8bc3b;
+}
+
+.background-green {
+    background-color: #27ae60;
+}
+
+.background-grey {
+    background-color: pink
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-red {
+    background-color: palegoldenrod;
+}
+
+.background-blue {
+    background-color: lightblue;
+}
+
+/*
+** Header
+*/
+
+header#main {
+    margin-bottom: 40px;
+}
+
+header#main .brand a {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color: #393f4a;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/*
+** Navigation
+*/
+
+nav#header-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    float: right;
+}
+
+nav#header-navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav#header-navigation ul li:last-child {
+    margin-right: 0;
+}
+
+nav#header-navigation ul li a {
+    font-size: 78%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav#header-navigation ul li a:not(.button) {
+    color: #393f4a;
+}
+
+/*
+** Buttons
+*/
+
+.button {
+    padding: 14px 30px;
+    border-radius: 5px;
+}
+
+.button-primary, .button-primary:hover {
+    background-color: #3a3a3a;
+    color: #ffffff;
+}
+
+.button-secondary, .button-secondary:hover {
+    background-color: white;
+    color: #3a3a3a;
+}
+
+/*
+** Feature
+*/
+
+.feature {
+    margin-top: 20px;
+}
+
+.feature h1 {
+    font-size: 5.5em;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 85px;
+    margin-bottom: 40px;
+}
+
+/* .feature .mac-img img {
+    margin-left: 70px;
+} */
+
+/*
+** Features
+*/
+
+.features {
+    text-align: center;
+}
+
+.features h5 {
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.features p {
+    font-size: 80%;
+    margin-bottom: 40px;
+}
+
+.features img {
+    margin-bottom: 20px;
+}
+
+/*
+** Recent
+*/
+
+.recent {
+    text-align: center;
+}
+
+.recent h2 {
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.recent p {
+    margin-bottom: 50px;
+    color: #96eaba;
+}
+
+.recent .item {
+    padding: 100px 0;
+    margin-top: 30px;
+}
+
+.recent nav ul {
+    text-align: center;
+    display: inline-block;
+}
+
+.recent nav ul li {
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.recent nav ul li.selected {
+    background-color: white;
+    border: 2px solid #96eaba;
+    border-color: white;
+}
+
+.recent nav ul li:hover {
+    border: 2px solid #96eaba;
+    border-color: white;
+}
+
+.recent nav ul li a{
+    padding: 10px;
+    color: white;
+}
+
+.recent nav ul li.selected a {
+    color: green;
+    font-weight: 600;
+}
+
+.recent nav ul li:hover a {
+    color: white;
+}
+
+.recent .show-more {
+    margin-top: 40px;
+}
